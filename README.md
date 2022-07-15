@@ -25,7 +25,7 @@ You can also use it as a new tab:
 
 For better user experience it is recommended to set up http server and store home page there.
 
-****For Linux users:** There is a systemd service file: `systemd/homepage.service`
+**For Linux users:** There is a systemd service file: `systemd/homepage.service`
 
 1. Edit `homepage.service`. Set path to your home page directory: `WorkingDirectory=<path-to-homepage>`
 2. Copy `homepage.service` to `/etc/systemd/system/`: 
