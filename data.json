@@ -1,0 +1,49 @@
+{
+    "Gamedev": {
+        "Godot API": "https://docs.godotengine.org/en/stable/classes/index.html",
+        "Github": "https://github.com/",
+        "Itch.io": "https://itch.io/",
+        "Steamspy": "https://steamspy.com/",
+        "OpenGameArt": "https://opengameart.org/",
+        "Freesound": "https://freesound.org/",
+        "Lospec": "https://lospec.com/"
+    },
+    "Entertainment": {
+        "Youtube": "https://www.youtube.com/",
+        "Yandex ZEN": "https://zen.yandex.ru/",
+        "iQIYI": "https://www.iq.com/?lang=en_us",
+        "Twitch": "https://www.twitch.tv/",
+        "YTS": "https://yts.am/",
+        "Rutracker": "https://rutracker.org/",
+        "ThePirateBay": "https://thepiratebay3.org/",
+        "Nyaa.si":  "https://nyaa.si/" 
+    },
+    "Study": {
+        "BFSU BB": "https://bb.bfsu.edu.cn/",
+        "BFSU System": "https://ibsis.bfsu.edu.cn/ibsjhs",
+        "Open Library": "https://openlibrary.org/",
+        "W3Schools": "https://www.w3schools.com/",
+        "BKRS": "https://bkrs.info/",
+        "Google Translate": "https://translate.google.com/",
+        "Shadertoy": "https://www.shadertoy.com/"
+    },
+    "Work": {
+        "Upwork": "https://www.upwork.com/",
+        "Jitsi": "https://meet.jit.si/",
+        "Gmail": "https://mail.google.com/",
+        "Yandex Mail": "https://mail.yandex.ru/",
+        "Mail.ru": "https://mail.ru/",
+        "REG.ru": "https://www.reg.ru/",
+        "SpaceWeb": "https://sweb.ru/",
+        "Material pallete": "https://www.materialpalette.com/colors"
+    },
+    "Social": {
+        "Reddit": "https://reddit.com/",
+        "WhatsApp": "https://web.whatsapp.com/",
+        "Twitter": "https://twitter.com/",
+        "VK": "https://vk.com/",
+        "2ch.hk": "https://2ch.hk/",
+        "4chan": "https://4chan.org/",
+        "LinkedIn": "https://www.linkedin.com/"
+    }
+}

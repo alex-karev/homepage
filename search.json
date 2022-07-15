@@ -1,0 +1,22 @@
+{
+    "Google": {
+        "home_url": "https://google.com/",
+        "query_url": "https://www.google.com/search?q=",
+        "button_text": "Google!"
+    },
+    "Yandex": {
+        "home_url": "https://yandex.ru/",
+        "query_url": "https://yandex.ru/search/?text=",
+        "button_text": "Найти!"
+    },
+    "DuckDuckGo": {
+        "home_url": "https://duckduckgo.com/",
+        "query_url": "https://duckduckgo.com/?q=",
+        "button_text": "Duck!"
+    },
+    "Baidu": {
+        "home_url": "https://www.baidu.com/",
+        "query_url": "https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&tn=baidu&rqlang=cn&wd=",
+        "button_text": "百度一下!"
+    }
+}

@@ -1,0 +1,110 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>New Tab</title>
+  <meta name="description" content="Home">
+  <meta name="author" content="Alex">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="background"></div>
+<div class="container">
+  <div class="row justify-content-center" id="search-websites"></div>
+</div>
+<div class="container heroimg">
+  <div class="row header align-items-center">
+    <div class="col-8 col-md-10">
+      <form id="searchform">
+      <input id="searchtext" type="text" class="form-control input-sm"></input>
+      </form>
+    </div>
+    <div class="col-4 col-md-2" id="search-buttons"></div>
+  </div>
+</div>
+
+<div class="container main">
+  <div class="row" id="links">
+  </div>
+</div>
+
+<a class="settings_btn" href="#settings"><img src="./img/gear.png"></div></a>
+<div id="settings">
+	<a href="#"><div class="overlay"></div></a>
+	<div class="settings">
+		<div class="container">
+      <form>
+        <div class="form-group row">
+          <label class="col-sm-2 col-form-label">Search Engines JSON</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="search_path">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-sm-2 col-form-label">Links JSON</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="links_path">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-sm-2 col-form-label">Color 1</label>
+          <div class="col-sm-10">
+            <input type="color" class="form-control" id="color1">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-sm-2 col-form-label">Color 2</label>
+          <div class="col-sm-10">
+            <input type="color" class="form-control" id="color2">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-sm-2 col-form-label">Gradient Angle</label>
+          <div class="col-sm-10">
+            <input type="number" class="form-control" id="angle">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-sm-2 col-form-label">Hero Image</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="hero">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-sm-2 col-form-label">Hero Height</label>
+          <div class="col-sm-10">
+            <input type="number" class="form-control" id="hero_height">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-sm-2 col-form-label">Sticker Image</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="sticker">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-sm-2 col-form-label">Sticker Size</label>
+          <div class="col-sm-10">
+            <input type="number" class="form-control" id="sticker_size">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-sm-2 col-form-label">Bottom Image</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="bottom">
+          </div>
+        </div>
+      </form>
+		</div>
+	</div>
+</div>
+<div class="bottom-pattern">
+</div>
+<div class="sticker"></div>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
