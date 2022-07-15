@@ -66,7 +66,7 @@ function apply_settings() {
   // Set search engines
   var search_path =  $( "#search_path" ).val();
   $.ajax({
-    url:search_path,
+    url:search_path + "?nocache=" + (new Date()).getTime(),
     type:'HEAD',
     // Show error
     error: function() { 
@@ -74,7 +74,7 @@ function apply_settings() {
     },
     // Generate and load
     success: function() {
-      $.getJSON(search_path, function(json) {
+      $.getJSON(search_path + "?nocache=" + (new Date()).getTime(), function(json) {
         set_search_engines(json);
       });
     }
@@ -83,7 +83,7 @@ function apply_settings() {
   // Load content
   var links_path =  $( "#links_path" ).val();
   $.ajax({
-    url:links_path,
+    url:links_path + "?nocache=" + (new Date()).getTime(),
     type:'HEAD',
     // Show error
     error: function() { 
@@ -91,7 +91,7 @@ function apply_settings() {
     },
     // Generate and load
     success: function() {
-      $.getJSON(links_path, function(json) {
+      $.getJSON(links_path + "?nocache=" + (new Date()).getTime(), function(json) {
         var new_content = generate_content(json);
         $( "#links" ).html(new_content);
       });
