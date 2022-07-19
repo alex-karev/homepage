@@ -59,6 +59,10 @@ a:hover {
 #searchtext {
 	background-color: rgba(255, 255, 255, 0.8);
 }
+#searchtext:focus {
+    border-color: #000000;
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25);
+}
 .main {z-index:10;}
 .main a {
 	display: inline-block;

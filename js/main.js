@@ -104,6 +104,13 @@ function apply_settings() {
   var angle = $( "#angle" ).val();
   $( ".background" ).css("background", "linear-gradient("+angle+"deg, "+color1+", "+color2+")")
 
+  // Change search field focus color
+  $("#searchtext").focus( function() {
+    $("#searchtext").css("border-color", color1);
+    var shadowcolor = color1.replace(")",", 0.25)").replace("rgb","rgba");
+    $("#searchtext").css("box-shadow","0 0 0 0.2rem "+shadowcolor);
+  });
+
   // Change hero image
   var hero = $( "#hero" ).val();
   var hero_height = $( "#hero_height" ).val();
