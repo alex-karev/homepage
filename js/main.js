@@ -2,10 +2,11 @@
 var default_values = {
   "search_path": "search.json",
   "links_path": "data.json",
+  "font": "sans-serif",
   "color1": "#ed333b",
   "color2": "#a51d2d",
   "angle": 180,
-  "hero": "https://c4.wallpaperflare.com/wallpaper/760/803/807/anime-anime-girls-hakurei-reimu-touhou-wallpaper-preview.jpg",
+  "hero": "https://images5.alphacoders.com/314/314184.jpg",
   "hero_height": 200,
   "sticker": "https://img-02.stickers.cloud/packs/14dbf1b8-55cf-4a8c-904c-aa76f562e8fa/webp/625a9d81-d46f-41f8-b58c-5ca033a986bd.webp",
   "sticker_size": 200,
@@ -128,6 +129,10 @@ function apply_settings() {
   var bottom = $( "#bottom" ).val();
   $(".bottom-pattern").css("background-image", "url('"+bottom+"')");
 
+  // Change font
+  var font = $( "#font" ).val(); 
+  $("*").css("font-family", font);
+
   // Save settings to local storage
   save_settings();
 }
@@ -159,6 +164,7 @@ $(window).on('load', function(){
 // Track settings changes
 $( "#search_path" ).change(function() {apply_settings();});
 $( "#links_path" ).change(function() {apply_settings();});
+$( "#font" ).change(function() {apply_settings();});
 $( "#color1" ).change(function() {apply_settings();});
 $( "#color2" ).change(function() {apply_settings();});
 $( "#angle" ).change(function() {apply_settings();});

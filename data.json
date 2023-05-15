@@ -8,15 +8,14 @@
         "Freesound": "https://freesound.org/",
         "Lospec": "https://lospec.com/"
     },
-    "Entertainment": {
+    "Fun": {
         "Youtube": "https://www.youtube.com/",
         "Yandex ZEN": "https://zen.yandex.ru/",
-        "iQIYI": "https://www.iq.com/?lang=en_us",
+        "Bilibili": "https://www.bilibili.com",
+        "iQIYI": "https://www.iqiyi.com/?iqiyi=o",
         "Twitch": "https://www.twitch.tv/",
-        "GoodGame": "https://goodgame.ru/",
         "YTS": "https://yts.am/",
-        "Rutracker": "https://rutracker.org/",
-        "ThePirateBay": "https://thepiratebay3.org/",
+        "Rutracker": "https://rutracker.net/",
         "Nyaa.si":  "https://nyaa.si/" 
     },
     "Study": {
@@ -46,5 +45,14 @@
         "2ch.hk": "https://2ch.hk/",
         "4chan": "https://4chan.org/",
         "LinkedIn": "https://www.linkedin.com/"
+    },
+    "Tools": {
+        "ChatGPT": "https://chat.openai.com",
+        "Colab": "https://colab.research.google.com/",
+        "Google Drive": "https://drive.google.com/",
+        "Calibre": "http://127.0.0.1:4040",
+        "V2rayA": "http://127.0.0.1:2017",
+        "Mitmproxy": "http://127.0.0.1:8081",
+        "Http Server": "http://127.0.0.1"
     }
 }
