@@ -10,7 +10,7 @@
     },
     "Fun": {
         "Youtube": "https://www.youtube.com/",
-        "Yandex ZEN": "https://zen.yandex.ru/",
+        "YT Music": "https://music.youtube.com/",
         "Bilibili": "https://www.bilibili.com",
         "iQIYI": "https://www.iqiyi.com/?iqiyi=o",
         "Twitch": "https://www.twitch.tv/",
@@ -19,11 +19,14 @@
         "Nyaa.si":  "https://nyaa.si/" 
     },
     "Study": {
+        "Scholar": "https://scholar.google.com/",
+        "Mybib": "https://www.mybib.com/tools/harvard-referencing-generator",
+        "Grammarly": "https://app.grammarly.com/",
+        "GPTZero": "https://gptzero.me/",
         "Open Library": "https://openlibrary.org/",
-        "W3Schools": "https://www.w3schools.com/",
+        "Z-Library": "https://singlelogin.re/",
         "BKRS": "https://bkrs.info/",
-        "Google Translate": "https://translate.google.com/",
-        "Shadertoy": "https://www.shadertoy.com/"
+        "Google Translate": "https://translate.google.com/"
     },
     "Work": {
         "Upwork": "https://www.upwork.com/",
@@ -33,7 +36,7 @@
         "Mail.ru": "https://mail.ru/",
         "REG.ru": "https://www.reg.ru/",
         "SpaceWeb": "https://sweb.ru/",
-        "Material pallete": "https://www.materialpalette.com/colors"
+        "Proton": "https://proton.me/"
     },
     "Social": {
         "Reddit": "https://reddit.com/",
@@ -46,6 +49,7 @@
     },
     "Tools": {
         "ChatGPT": "https://chat.openai.com",
+        "Oobabooga": "http://127.0.0.1:7860",
         "Colab": "https://colab.research.google.com/",
         "Google Drive": "https://drive.google.com/",
         "Calibre": "http://127.0.0.1:4040",

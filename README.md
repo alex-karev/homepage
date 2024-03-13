@@ -1,3 +1,7 @@
+# DISCONTINUED - Use PRACTITAB instead
+
+[https://github.com/alex-karev/practitab](https://github.com/alex-karev/practitab)
+
 # Alex's Homepage
 
 A configurable and compact homepage for PC browsers
